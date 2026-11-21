@@ -23,7 +23,7 @@ juce_add_plugin(AuroraSynth
     VST3_CATEGORIES "Instrument" "Synth"
     COPY_PLUGIN_AFTER_BUILD FALSE)
 
-target_sources(AuroraSynth PRIVATE Source/AuroraSynth.cpp)
+target_sources(AuroraSynth PRIVATE AuroraSynth.cpp)
 
 target_compile_definitions(AuroraSynth PUBLIC
     JUCE_WEB_BROWSER=0
